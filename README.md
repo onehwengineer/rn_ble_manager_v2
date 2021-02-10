@@ -159,7 +159,7 @@ Otherwise, *failed to build ios project... error code 65* will show up when `rea
   - Select the account name signed in from previous
 ![Image](https://user-images.githubusercontent.com/60368973/103330584-08f66200-4a17-11eb-89e6-f074e777dced.png)
 - [3] Connect your iPhone to a Mac via Lightening cable
-  - In Xcode, hit Windows → Devices and Simulators
+  - In Xcode, hit menu : Window → Devices and Simulators
   - A window will show up and indicate that this iPhone needs to be trusted
   - Unlock your (connected) iPhone, and hit Trust upon pop up
   - Xcode will then install debugger support on this iPhone (takes a few min)
