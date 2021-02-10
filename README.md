@@ -34,6 +34,8 @@ Download Arduino script from above and flash on to your ESP32.
 ## Install React Native
 There are many prerequisites to be installed before we can actually install RN.<br>
 Make sure ALL are installed.
+- [0] Install **XCode** (from App Store)
+  - **Xcode Command Line Tools** will be installed in step [1]
 - [1] Install **Homebrew**
   - Homebrew is a package manager that let's you install stuff that Apple or Linux didn't need
   - Open Terminal, and paste :
