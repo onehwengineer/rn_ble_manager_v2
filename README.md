@@ -90,6 +90,17 @@ You will now notice that [your project dir]/rn_ble_manager_v2 is created. <br>
 - Next, `cd ios` (/ios is a sub-directory of rn_ble_manager_v2), and type `pod install`
 - `cd ..` to go back to project directory
 
+> Error during `pod install` :
+```console
+> xcrun: error: SDK "iphoneos" cannot be located
+> ...
+> xcrun: error: unable to lookup item 'Path' in SDK 'iphoneos'
+```
+> First, make sure XCode is installed (from step [0] above)
+> Next, type `sudo xcode-select --switch /Applications/Xcode.app`
+> Or, open Xcode, Xcode -> Preferences -> Locations -> Make sure Command Line Tools are selected
+> Run `pod install` again!
+
 
 ## [IMPORTANT] MUST DO THIS STEP
 For any apps with react-native-vector-icons library, below steps must be done after cloning. <br>
