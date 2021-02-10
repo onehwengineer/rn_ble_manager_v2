@@ -84,7 +84,7 @@ You will now notice that [your project dir]/rn_ble_manager_v2 is created. <br>
 ## Install All Node Libraries/Dependencies in Cloned Project (as specified under packages.json)
 - From Terminal, `cd` into /rn_ble_manager_v2
 - Type : `npm install`
-- Next, `cd` into /ios (a sub-directory of rn_ble_manager_v2), and type `pod install`
+- Next, `cd ios` (/ios is a sub-directory of rn_ble_manager_v2), and type `pod install`
 - `cd ..` to go back to project directory
 
 
