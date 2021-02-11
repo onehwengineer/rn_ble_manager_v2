@@ -171,4 +171,5 @@ Otherwise, *failed to build ios project... error code 65* will show up when `rea
 - [5] Hit Run button in Xcode!
   - You will get a ton of warning messages, but just ignore them.
   - After a few min, your app will launch on your iPhone!
-  
+![Image](https://user-images.githubusercontent.com/60368973/107589828-b2567900-6bbb-11eb-8bbf-852e114dac96.png)  
+  - During first build, you might see this pop up -> Enter your Mac login password, and hit Always Accept
