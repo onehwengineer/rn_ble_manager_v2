@@ -78,10 +78,32 @@ You will now notice that [your project dir]/rn_ble_manager_v2 is created. <br>
 
 
 ## (Repo Cloned Already) Getting Latest Changes from Remote Repo
-> If this repo was cloned before, and you'd like to "get" the latest updates to this repo, follow this step
+If this repo was cloned before, and you'd like to "update" **LOCAL master** with latest **REMOTE master**, follow this step :
+- In Terminal, `cd` into project directory, /rn_ble_manager_v2 -> `git pull origin master`
 
-- In Terminal, `cd` into project directory, /rn_ble_manager_v2
-- `git pull origin master` This will get, or "pull" all the latest changes in the remote repo to your local repo.
+> (Optional) A few useful Git commands
+> `git status` : Check for any commits that are staged of commited <br>
+> `git remote -v` : Check what remote repository (Github) our local repository is connected to <br>
+
+
+## (Repo Cloned Already) Create a Branch Locally, Make Some Changes, and Merge Branch with Master on Remote Repo 
+(It's always a good practice to work with Branches)
+- [1] Create a **local** branch : `git branch br` ("br" is the name of the branch)
+  - Default branch of every repo is called "master". 
+- [2] Switch branches : "master" -> "br"
+  - `git branch` -> Use arrow key to select branch, "br"
+  - `git checkout br`
+- [3] Make some changes (or add new files), and commit & push your branch to remote
+  - `git add -A`
+  - `git commit -a -m "br 1st commit"
+  - `git push origin br`
+- [4] Switch to master branch on your local repository : `git checkout master`
+- [5] Update local master with remote master : `git pull origin master`
+- [6] Merge `br` with local master : `git merge br`
+  - (This may give you conflicts which need to be resolved and changes committed before moving further)
+  - (https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/resolving-a-merge-conflict-using-the-command-line)
+- [7] Commit merge of `br` with master : `git commit -a -m "master after merge"
+- [8] Push local master to remote master : `git push origin master`
 
 
 ## Install All Node Libraries/Dependencies in Cloned Project (as specified under packages.json)
