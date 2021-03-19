@@ -159,7 +159,7 @@ Otherwise, *failed to build ios project... error code 65* will show up when `rea
   ```
     - Save -> restart VSCode (or any other text editor) & metro bundler (Terminal)
     - [android] Add this line to android/app/**build.gradle**
-    - `apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"`
+      - `apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"`
     
 ## Run App on Simulator (just to make sure no errors during build)
 - Although the ultimate goal is to lauch this app in an ios device, we still need to test under Simulator to ensure that there are no build errors.
